@@ -60,5 +60,5 @@ class VideoApp extends Component {
         );
     }
 }
-
-export default VideoApp;
+ReactDOM.render(<VideoApp />, document.getElementById("root"));
+//export default VideoApp;
